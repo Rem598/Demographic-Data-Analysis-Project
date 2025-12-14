@@ -8,7 +8,7 @@ This project focuses on analyzing a demographic dataset to understand the distri
 
 ## Data Source
 
-The analysis is based on the `week12_data.csv` file.
+The analysis is based on the `demographic_data.csv` file.
 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
@@ -27,9 +27,9 @@ The analysis is based on the `week12_data.csv` file.
 
 ## Analysis Objectives
 
-1.  [cite_start]**Exploration (Descriptive Statistics):** Calculate measures of central tendency, dispersion, and shape for numerical variables like Age, Household Income, and Internet Usage Hours[cite: 132].
-2.  [cite_start]**Distribution Assessment:** Visualize and describe the distribution of Age and Internet Usage Hours using Histograms[cite: 155, 181].
-3.  [cite_start]**Outlier Check:** Use descriptive statistics and boxplots to identify extreme values in Household Income[cite: 194, 207].
+1.  **Exploration (Descriptive Statistics):** Calculate measures of central tendency, dispersion, and shape for numerical variables like Age, Household Income, and Internet Usage Hours.
+2.  **Distribution Assessment:** Visualize and describe the distribution of Age and Internet Usage Hours using Histograms.
+3. **Outlier Check:** Use descriptive statistics and boxplots to identify extreme values in Household Income.
 4.  **Relationship Analysis (Crosstabs & Chi-Square):** Test for relationships between pairs of categorical variables, including:
     * [cite_start]Gender and Marital Status[cite: 209].
     * [cite_start]Region and Home Ownership[cite: 212].
@@ -56,16 +56,16 @@ The analysis is based on the `week12_data.csv` file.
 
 | Relationship | Chi-Square ($\chi^2$) Value | Degrees of Freedom (df) | $p$-value | Conclusion (Significance at $\alpha=0.05$) | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Region \* Owns Home** | $3.233$ | $4$ | $.520$ | [cite_start]**Not Significant** [cite: 253, 216] [cite_start]| [cite: 216] |
-| **Employment Status \* Education Level** | $15.289$ | $9$ | $.083$ | [cite_start]**Not Significant** [cite: 230, 225] [cite_start]| [cite: 225] |
-| **Political Affiliation \* Region** | $15.845$ | $12$ | $.198$ | [cite_start]**Not Significant** [cite: 254, 247] [cite_start]| [cite: 247] |
-| **Age (Binned) \* Has Children** | $.411$ | $3$ | $.938$ | [cite_start]**Not Significant** [cite: 236] [cite_start]| [cite: 236] |
+| **Region \* Owns Home** | $3.233$ | $4$ | $.520$ | **Not Significant**  |
+| **Employment Status \* Education Level** | $15.289$ | $9$ | $.083$ | **Not Significant** |
+| **Political Affiliation \* Region** | $15.845$ | $12$ | $.198$ | **Not Significant**|
+| **Age (Binned) \* Has Children** | $.411$ | $3$ | $.938$ |**Not Significant** |
 
-[cite_start]The only notable finding regarding the binned age group and children is that the **45-60 age group** has the highest percentage (50.2%) of respondents with children[cite: 239, 255].
+he only notable finding regarding the binned age group and children is that the **45-60 age group** has the highest percentage (50.2%) of respondents with children.
 
 ## Real-World Applications
 
-[cite_start]The findings provide valuable insights for strategic planning[cite: 256]:
+The findings provide valuable insights for strategic planning:
 
 * [cite_start]**Marketing Targeting:** A company selling family-oriented products could focus its marketing efforts on the **45-59 age group**, as this group has the highest percentage of respondents with children[cite: 257].
 * [cite_start]**Policy Making:** The lack of a significant relationship between region and homeownership suggests that housing policy initiatives aimed at increasing homeownership should be broad and not solely focused on specific geographical regions[cite: 258, 260].
