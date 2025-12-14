@@ -54,7 +54,7 @@ The analysis is based on the `demographic_data.csv` file.
 
 The analysis found that many key demographic variables are independent of each other.
 
-| Relationship | Chi-Square ($\chi^2$) Value | Degrees of Freedom (df) | $p$-value | Conclusion (Significance at $\alpha=0.05$) |
+| Relationship | Chi-Square ($\chi^2$) Value | Degrees of Freedom (df) | $p$-value | Conclusion (Significance at $\alpha=0.05$) | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Region \* Owns Home** | $3.233$ | $4$ | $.520$ | **Not Significant**  |
 | **Employment Status \* Education Level** | $15.289$ | $9$ | $.083$ | **Not Significant** |
