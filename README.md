@@ -8,7 +8,7 @@ This project focuses on analyzing a demographic dataset to understand the distri
 
 ## Data Source
 
-The analysis is based on the `demographic_data.csv` file.
+The analysis is based on the `Demographic_data.csv` file.
 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
