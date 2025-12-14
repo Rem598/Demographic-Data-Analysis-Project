@@ -31,28 +31,28 @@ The analysis is based on the `demographic_data.csv` file.
 2.  **Distribution Assessment:** Visualize and describe the distribution of Age and Internet Usage Hours using Histograms.
 3. **Outlier Check:** Use descriptive statistics and boxplots to identify extreme values in Household Income.
 4.  **Relationship Analysis (Crosstabs & Chi-Square):** Test for relationships between pairs of categorical variables, including:
-    * [cite_start]Gender and Marital Status[cite: 209].
-    * [cite_start]Region and Home Ownership[cite: 212].
-    * [cite_start]Employment Status and Education Level[cite: 220].
-    * [cite_start]Age (Binned) and Has Children[cite: 232].
-    * [cite_start]Political Affiliation and Region[cite: 241].
+    * Gender and Marital Status.
+    * Region and Home Ownership.
+    * Employment Status and Education Level.
+    * Age (Binned) and Has Children.
+    * Political Affiliation and Region.
 
 ## Key Findings
 
 ### Descriptive Analysis Summary
 
-* [cite_start]**Age:** The distribution of age appears to be normal and symmetrical[cite: 251, 174]. The key statistics are:
-    * [cite_start]Mean: $43.58$ [cite: 135]
-    * [cite_start]Median: $43.00$ [cite: 135]
-    * [cite_start]Standard Deviation: $14.919$ [cite: 135]
-* [cite_start]**Household Income:** The income range is from a minimum of $\$20,016$ to a maximum of $\$149,997$[cite: 138, 196]. [cite_start]No outliers were found in Household Income[cite: 207, 252].
-* [cite_start]**Internet Usage Hours:** The distribution is fairly uniform and very close to being symmetrical[cite: 251, 141, 193].
-    * [cite_start]Skewness: $0.014$ [cite: 140]
-    * [cite_start]Kurtosis: $-1.191$ [cite: 140]
+* **Age:** The distribution of age appears to be normal and symmetrical[cite: 251, 174]. The key statistics are:
+    * Mean: $43.58$ 
+    * Median: $43.00$ 
+    * Standard Deviation: $14.919$
+* **Household Income:** The income range is from a minimum of $\$20,016$ to a maximum of $\$149,997$.No outliers were found in Household Income.
+* **Internet Usage Hours:** The distribution is fairly uniform and very close to being symmetrical.
+    * Skewness: $0.014$ 
+    * Kurtosis: $-1.191$ 
 
 ### Relationship Analysis Summary
 
-[cite_start]The analysis found that many key demographic variables are independent of each other[cite: 252].
+The analysis found that many key demographic variables are independent of each other.
 
 | Relationship | Chi-Square ($\chi^2$) Value | Degrees of Freedom (df) | $p$-value | Conclusion (Significance at $\alpha=0.05$) | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -67,7 +67,7 @@ he only notable finding regarding the binned age group and children is that the 
 
 The findings provide valuable insights for strategic planning:
 
-* [cite_start]**Marketing Targeting:** A company selling family-oriented products could focus its marketing efforts on the **45-59 age group**, as this group has the highest percentage of respondents with children[cite: 257].
-* [cite_start]**Policy Making:** The lack of a significant relationship between region and homeownership suggests that housing policy initiatives aimed at increasing homeownership should be broad and not solely focused on specific geographical regions[cite: 258, 260].
+* **Marketing Targeting:** A company selling family-oriented products could focus its marketing efforts on the **45-59 age group**, as this group has the highest percentage of respondents with children.
+* **Policy Making:** The lack of a significant relationship between region and homeownership suggests that housing policy initiatives aimed at increasing homeownership should be broad and not solely focused on specific geographical regions.
 
 ---
