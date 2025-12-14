@@ -41,7 +41,7 @@ The analysis is based on the `demographic_data.csv` file.
 
 ### Descriptive Analysis Summary
 
-* **Age:** The distribution of age appears to be normal and symmetrical[cite: 251, 174]. The key statistics are:
+* **Age:** The distribution of age appears to be normal and symmetrical. The key statistics are:
     * Mean: $43.58$ 
     * Median: $43.00$ 
     * Standard Deviation: $14.919$
@@ -61,7 +61,7 @@ The analysis found that many key demographic variables are independent of each o
 | **Political Affiliation \* Region** | $15.845$ | $12$ | $.198$ | **Not Significant**|
 | **Age (Binned) \* Has Children** | $.411$ | $3$ | $.938$ |**Not Significant** |
 
-he only notable finding regarding the binned age group and children is that the **45-60 age group** has the highest percentage (50.2%) of respondents with children.
+The only notable finding regarding the binned age group and children is that the **45-60 age group** has the highest percentage (50.2%) of respondents with children.
 
 ## Real-World Applications
 
